@@ -1,19 +1,9 @@
 import React from 'react';
-import './App.css';
+import Say from './Say';
 
-function App() {
-  const name = '리액트';
+const App = () => {
+  return <Say />;
+};
 
-  return (
-    <div>
-      <div className="react">
-        {name}
-      </div>
-      <h1>들여쓰기</h1>
-      <h2>코드</h2>
-      <p>입니다.</p>
-    </div>
-  );
-}
 
 export default App;
